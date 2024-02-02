@@ -19,17 +19,20 @@ body {
     margin-top: -10px;
 }
 
-.stats-container {
+.stats-container { 
     display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .stats-card {
     background-color: #a8b0bc;
-    border-radius: 7px;
-    padding: 1%;
+    border-radius: 100px;
     margin: 1%;
-    width: 100%;
+    width: 70%;
     text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px lightblue;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -39,20 +42,20 @@ body {
 #games-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .game-img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .game-card {
     background-color: #FFFFFF;
     padding: 1%;
     margin: 1%;
-    width: 300px;
+    width: 400px;
     text-align: center;
     border-radius: 7px;
 }
@@ -71,5 +74,5 @@ button {
     border: none;
     padding: 1%;
     margin: 1%;
-    border-radius: 7px;
+    border-radius: 10px;
 }
